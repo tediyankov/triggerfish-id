@@ -229,7 +229,7 @@ def main():
     print()
 
     # create output dirs and metadata dirs
-    images_dir    = os.path.join(args.output_dir, f"{species_name.replace(' ', '_')}_images")
+    images_dir = os.path.join(args.output_dir, f"{species_name.replace(' ', '_')}_images")
     metadata_path = os.path.join(args.output_dir, f"{species_name.replace(' ', '_')}_metadata.csv")
 
     os.makedirs(images_dir, exist_ok=True)
